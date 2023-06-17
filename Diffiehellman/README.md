@@ -40,7 +40,7 @@ $$ f(z,n) = a^{n}z + \sum_{i=0}^{n-1} ba^{i} \mod p $$
 
 and the shared_secret secret is equal to : 
 
-$$ f(A,nb) = a^{nb}z + \sum_{i=0}^{nb-1} ba^{i} \mod p $$
+$$ f(A,nb) = A^{nb}z + \sum_{i=0}^{nb-1} ba^{i} \mod p = A^{nb+na}z + \sum_{i=0}^{nb+na-1} ba^{i} \mod p $$
 
 We see that we can fin the shared_secret by using A and B, here is how  : 
 
